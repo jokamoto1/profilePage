@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#bluebox{
+    background-color: rgb(0, 102, 255);
+    height: 70px;
+    width: 500px;
+    margin-bottom: 40px;
+    
+}
+#box{
+    border-style: solid;
+    height: 250px;
+    width: 500px;
+    
+    
+}  
+#box #user-circle{
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width:5px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+#gear{
+    height: 20px;
+    width: 20px;
+    color: blue;
+    padding-left: 15px;
+}
+#map{
+    height: 20px;
+    width: 15px;
+    padding-left: 15px;
+    
+}
+#location{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+#box #edit{
+    display: flex;
+    margin-top: 10px;
+
+}
+#box a{
+    color: blue;
+}
+#box h2,h3,a,p{
+    padding-left: 15px;
+    
+}
+body{
+    font-family: "Roboto";
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: darkgrey;
+    height: 50;
+
+    padding-left: 10px;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.btn{
+    background-color: turquoise;
+    color: white;
+    box-shadow:3px 3px 3px black;
+}
+.menu{
+    padding: 50px;
+    
+    
+}
+ul li{
+  list-style: none;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#contactBox{
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+   
+}
+#contactBox #greyBox{
+    background-color: grey;
+    height: 70px;
+ 
+    display: flex;
+}
+#greyBox{
+    color: white;
+    
+}
+#greyBox #greyCircle{
+    border-radius: 50%;
+    border-width: 1px;
+border-style: solid;
+    border-color: white;
+    margin-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding-top: 5px;
+  width: 20px;
+  padding-left: 10px;
+  
+   
+}
+#greyBox h3{
+margin-top: 20px;
+}
+#small-img{
+height: 40px;
+width: 40px ;
+margin-left: 10px;
+}
+#row{
+    display: flex;
+}
+#col{
+    flex: 3;
+    margin: 20px;
+}
+#col-2{
+    flex: 1;
+    margin: 20px;
+}
+#col-3{
+    flex: 3;
+    margin: 20px;
+}
+#col-4{
+    flex: 1;
+    margin: 20px;
+}
+
+
+#user-circle-small{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    
+    
+}
+#connectCircle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  
+}
+#a{
+    display: flex;
+    margin-top: 5px;
+}
+#Tom, #Bob{
+    display: flex;
+    margin-top: 25px;
+}
+#greyCircle2{
+    border-radius: 50%;
+    border-width: 1px;
+border-style: solid;
+    border-color: white;
+    margin-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding-top: 5px;
+  width: 40px;
+  padding-left: 10px;
+}
+#row{
+    display: flex;
+}
+#col-3 #contactBox{
+    width: 500px;
+   
+}
+#col-3 #contactBox h3,h4{
+    padding-top: 10px;
+    padding-left: 10px
+}
+
+
+
+
+
+
+
